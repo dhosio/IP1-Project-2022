@@ -617,7 +617,7 @@ html {
     .col-md-9 {
       width: 75%;
     }
-    .col-md-8 {
+    .col-md-8{
       width: 66.66666667%;
     }
     .col-md-7 {
@@ -4515,11 +4515,11 @@ html {
   @media (max-width: 992px) {
     .category-toggle {
       float: left;
-      position: absolute;
+      position: fixed;
       top: 0;
       left: -270px;
       width: 270px;
-      z-index: 999;
+      z-index: 1;
       background-color: #f8f8f8;
       padding: 20px;
       transition: all .3s ease;
@@ -5424,8 +5424,8 @@ html {
   }
   .product-details-list .tab-pane .single-product figure {
     position: relative;
-    width: 120px;
-    height: 120px;
+    width: 180px;
+    height: 180px;
     margin: 0;
     margin-right: 20px;
     margin-bottom: 5px;
@@ -5616,8 +5616,12 @@ html {
     margin: 0;
     padding: 1px;
     width: 100%;
-    height: 200px;
+    height: 220px;
     border-bottom: 1px solid #dddddd;
+  }
+  .single-experience-item{
+    display: flex;
+    align-items: center;
   }
   .company-product .single-product figure img,
   .company-portfolio .single-product figure img {
@@ -7105,11 +7109,44 @@ html {
     width: 300%;
     transition: all .3s ease;
   }
+  /*-----------------------------Custom CSS Code-------------------------------*/
+  /* Header strip */
   .header-dark-strip{
     width: 100%;
     height: 70px;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.6);
+  }
+  /* Resume Section */
+  .resume{
+    background-color: #333333;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+  }
+  .resumeBtn, .resumeBtn a{
+    background-color: #eeba00;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    padding: 8px;
+    font-weight: 600;
+    color: #333333;
+    border-radius: 8px;
+  }
+  .resumeBtn:hover, .resumeBtn:hover a{
+    color: black;
+    transform: scaleX(1.03);
+    transition: all 0.3s ease-in-out;
+  }
+  /* Section Dividers */
+  .divider{
+    width: 100%;
+    height: 2px;
+    background-color: #eeba00;
+    margin: 50px 0px;
   }
   .company-heading-view .company-slider-content .general-view {
     position: absolute;
@@ -7119,6 +7156,56 @@ html {
     width: 33.33%;
     background: url(../Resources/Images/blured_background.jpg) top center no-repeat;
     background-size: cover;
+  }
+  /* Custom Form Code */
+  .comment-form {
+    margin-bottom: 40px;
+    padding: 30px;
+    background: #f8f8f8;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+  }
+  .comment-form input {
+    margin-bottom: 15px;
+    border: 1px solid #dddddd;
+    height: 40px;
+    font-weight: 700;
+    color: #333333;
+  }
+  .comment-form input:focus,
+  .comment-form input:active {
+    border-color: #333333;
+  }
+  .comment-form textarea {
+    margin: 15px 0;
+    padding: 13px;
+    width: 100%;
+    height: 200px;
+    resize: none;
+    outline: 0;
+    border-radius: 3px;
+    border: 1px solid #dddddd;
+    font-weight: bold;
+  }
+  .comment-form textarea:focus,
+  .comment-form textarea.active {
+    border-color: #333333;
+    box-shadow: none;
+  }
+  .comment-form .btn {
+    padding: 8px 15px;
+    font-weight: bold;
+  }
+  .comment-form .btn .fa {
+    padding-right: 4px;
+  }
+  .company-profile .body-text {
+    padding-top: 40px;
+    padding-bottom: 10px;
+  }
+  .company-profile .body-text p {
+    font-size: 15px;
+    line-height: 25px;
   }
   .company-heading-view .company-slider-content .general-view > span {
     position: absolute;
