@@ -7,16 +7,16 @@
  * This software is released under the MIT License <http://www.opensource.org/licenses/mit-license.php>
  */
 
-eval(function(p, a, c, k, e, r) {
-    e = function(c) {
+eval(function (p, a, c, k, e, r) {
+    e = function (c) {
         return (c < a ? '' : e(parseInt(c / a))) + ((c = c % a) > 35 ? String.fromCharCode(c + 29) : c.toString(36))
     };
     if (!''.replace(/^/, String)) {
         while (c--) r[e(c)] = k[c] || e(c);
-        k = [function(e) {
+        k = [function (e) {
             return r[e]
         }];
-        e = function() {
+        e = function () {
             return '\\w+'
         };
         c = 1

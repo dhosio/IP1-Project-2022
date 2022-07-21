@@ -240,7 +240,8 @@
         markers: [{
           latitude: 37.792218928191865,
           longitude: -122.43700504302979,
-          icon: 'img/content/map-marker-company.png'
+          icon: '../Resources/Images/map-marker-company.png',
+          animation: google.maps.Animation.BOUNCE
         }]
       });
 
@@ -252,9 +253,9 @@
         scrollwheel: false,
 
         markers: [{
-          latitude: 37.77125750792944,
-          longitude: -122.4085521697998,
-          icon: 'img/content/map-marker-company.png'
+          latitude: -20.0350,
+          longitude: 57.5450,
+          animation: google.maps.Animation.BOUNCE
         }]
       });
     }

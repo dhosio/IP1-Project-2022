@@ -7791,7 +7791,7 @@ html {
   }
   #footer .main-footer .about-globo .footer-logo {
     position: relative;
-    background: url(../img/content/footer_logo_bg.jpg) top center no-repeat;
+    background: url(../Resources/Images/footer_img_bg.jpg) top center no-repeat;
     background-size: cover;
     height: 125px;
     text-align: center;
@@ -7800,8 +7800,12 @@ html {
   }
   #footer .main-footer .about-globo .footer-logo a {
     position: relative;
-    top: 34px;
+    top: 13px;
     z-index: 30;
+  }
+  #footer .main-footer .about-globo .footer-logo a img{
+    border-radius: 50px;
+    background-color: transparent;
   }
   #footer .main-footer .about-globo .footer-logo span {
     position: absolute;
