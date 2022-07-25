@@ -3911,7 +3911,7 @@ html {
   #header .header-nav-bar .primary-nav > li {
     position: relative;
     float: left;
-    border-right: 1px solid #e5e5e5;
+    border-right: 2px solid #e5e5e5;
   }
   #header .header-nav-bar .primary-nav > li:first-child {
     border-left: 1px solid #e5e5e5;
@@ -4115,6 +4115,12 @@ html {
     position: relative;
     width: 100%;
     height: 920px;
+  }
+  /* Custom CSS for the header photo */
+  img.header-slider-image{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
   }
   @media (max-width: 992px) {
     .slider-content #home-slider {
@@ -7791,7 +7797,7 @@ html {
   }
   #footer .main-footer .about-globo .footer-logo {
     position: relative;
-    background: url(../Resources/Images/footer_img_bg.jpg) top center no-repeat;
+    background-image: url(../Resources/Images/footer_img_bg.jpg) top center no-repeat;
     background-size: cover;
     height: 125px;
     text-align: center;
