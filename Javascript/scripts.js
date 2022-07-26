@@ -101,7 +101,7 @@
   //-----------------------------------------
   $("#partners-slider").owlCarousel({
     autoPlay: 3000,
-    items : 6,
+    items : 5,
     itemsDesktop : [1199,4],
     itemsDesktopSmall : [979,3],
     itemsTablet: [600,2]
@@ -117,7 +117,8 @@
     navigation : false, // Show next and prev buttons
     slideSpeed : 600,
     paginationSpeed : 600,
-    singleItem:true
+    singleItem:true,
+    autoPlay: 10000
 
   });
 
@@ -253,8 +254,8 @@
         scrollwheel: false,
 
         markers: [{
-          latitude: -20.0350,
-          longitude: 57.5450,
+          latitude: -20.0089,
+          longitude: 57.5816,
           animation: google.maps.Animation.BOUNCE
         }]
       });

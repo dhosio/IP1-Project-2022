@@ -5812,7 +5812,7 @@ html {
     margin: 0;
     padding: 1px;
     width: 100%;
-    height: 200px;
+    height: 300px;
     border-bottom: 1px solid #dddddd;
   }
   .featured-listing .single-product figure img {
@@ -5889,7 +5889,7 @@ html {
   }
   .featured-listing .single-product figure figcaption .read-more {
     position: relative;
-    top: 90px;
+    top: 150px;
   }
   .featured-listing .single-product figure figcaption .read-more .fa {
     padding: 7px 11px;
@@ -7837,7 +7837,7 @@ html {
     margin-right: 15px;
   }
   #footer .main-footer .latest-post .post-image img {
-    width: 70px;
+    width: 90px;
     height: 70px;
     border-radius: 6px;
   }
@@ -7850,6 +7850,7 @@ html {
     background-color: #1a1a1a;
     font-family: 'Raleway', sans-serif;
     border-radius: 3px;
+    text-align: center;
   }
   #footer .main-footer .latest-post .post-image p span {
     color: #e4b200;

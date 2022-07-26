@@ -10,7 +10,7 @@ Highly recommended that upon downloading the zipped contents of the website, one
 
 ## Website Preview
 
-  ![SCREENSHOT](Resources/Images/experience-image.jpg)
+  ![SCREENSHOT](Resources/Images/website_screenshot.png)
 
 ## Setup/Installation Minimal Requirements
 * i5 Core
