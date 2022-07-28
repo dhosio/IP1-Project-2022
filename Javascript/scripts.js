@@ -502,3 +502,7 @@ $("document").ready(function($){
 });
 
 
+// Custom code to show alert when Register button is clicked
+function showRegisterAlert(){
+  alert("We will soon implement the register feature.")
+}
