@@ -6053,6 +6053,21 @@ html {
     background: #333333;
     text-transform: uppercase;
   }
+  .discuss-section h1 {
+    margin: 0;
+    color: #fff;
+    font-weight: 400;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    padding: 40px 0;
+    background: #333333;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  #disqus_thread{
+    margin: 15px;
+    padding: 15px;
+  }
   .register-content .registration-details {
     position: relative;
     padding: 100px 0;
